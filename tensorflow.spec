@@ -8,7 +8,7 @@ Url:            https://www.tensorflow.org/
 Source0:        %{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires:  patch
-BuildRequires:  python36
+BuildRequires:  python37
 
 %description
 TensorFlow is an open source software library for numerical computation using data flow graphs.
